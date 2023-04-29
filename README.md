@@ -1,72 +1,51 @@
-<div id="top"></div>
+ONLINE JOB PORTAL USING REACT AND SANITY
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
 
-<h3 align="center">React Pizza</h3>
+This website is all about searching the top jobs from top-reputed companies all over the world.
+It has additional functionalities of searching and filter jobs on based of their job role or experience.
+Further more it has a form where a company user who wants to add their job on to our site can fill the form and add it.
+Next, it has an option where a student/user can save the job by clicking on bookmark icon.
 
-  <p align="center">
-    <a href="https://freekson.github.io/React-Pizza/">View Demo</a>
-    ·
-    <a href="https://github.com/Freekson/React-Pizza/issues">Report Bug</a>
 
-  </p>
-</div>
+Now one surprise section added is of discussion Chamber which is connected with Sanity(Headless CMS).
+A text-editor is added with functionalities of bold,italic,etc and image section where a user can just upload an image or can copy any image address from wherever and it will automatically preview image according to the type of input url using regex.
+User can reply the same thing as well at the same time.
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>   
-    <li><a href="#license">Tech Stack Used</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+This website is fullt responsive..
 
-<!-- ABOUT THE PROJECT -->
 
-## About The Project
 
-![project screen](src/assets/img/chrome_NGl2ItWjdZ.png)
 
-## Tech Stack Used
+Home Page
 
--   ReactJS
--   React Router
--   React Skeleton
--   React Hooks
--   SCSS-Modules / SASS(SCSS syntax) for styling
-<!-- GETTING STARTED -->
+![Screenshot 2023-01-28 at 8 49 15 PM](https://user-images.githubusercontent.com/114575434/215274848-ce9787c7-8bdc-43c5-9f58-f7862b4cecd7.png)
 
-## Installation
 
-1. Clone the repo
-    ```sh
-    git clone https://github.com/Freekson/React-Pizza.git
-    ```
-2. Install NPM packages
-    ```sh
-    npm install
-    ```
-3. Run command
-    ```sh
-    npm run start
-    ```
+Jobs Page
 
-<!-- CONTACT -->
+![Screenshot 2023-01-28 at 8 47 22 PM](https://user-images.githubusercontent.com/114575434/215274857-f2aefecd-f349-4c8c-b703-0c4ad410159a.png)
 
-## Contact
 
-Yehor Dreval
 
--   [Instagram](https://www.instagram.com/freeksons)
--   [Telegram](https://t.me/freekson)
--   [Linkedin](https://www.linkedin.com/in/yehor-dreval-1634b4207/)
+Job Category Filter
 
-Project Link: [React pizza](https://github.com/Freekson/React-Pizza)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+![Screenshot 2023-01-28 at 8 47 22 PM](https://user-images.githubusercontent.com/114575434/215274869-908a1630-83c9-44c6-bf37-dfb76262a895.png)
+
+
+
+Discussion Chamber
+
+![Screenshot 2023-01-28 at 8 52 19 PM](https://user-images.githubusercontent.com/114575434/215274887-06fa1c2e-79b1-47f0-b0ee-bdb34d6f1281.png)
+
+
+
+
+
+Tools and Technology Used:-
+
+1.HTML CSS AND JS
+2.React JS
+3.Sanity for Backend.
+4.VS Code
+5.Vercel for deployment.
