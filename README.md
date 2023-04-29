@@ -1,51 +1,65 @@
-ONLINE JOB PORTAL USING REACT AND SANITY
+# Salinaka | E-commerce react app
+Simple ecommerce react js app with firebase [typescript].
+![Firebase Deploy](https://github.com/jgudo/ecommerce-react/workflows/Firebase%20Deploy/badge.svg)
 
+### [Live demo](https://salinaka-ecommerce.web.app/)
 
-This website is all about searching the top jobs from top-reputed companies all over the world.
-It has additional functionalities of searching and filter jobs on based of their job role or experience.
-Further more it has a form where a company user who wants to add their job on to our site can fill the form and add it.
-Next, it has an option where a student/user can save the job by clicking on bookmark icon.
+![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny1.png)
+![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny2.png)
+![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny3.png)
+![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny7.png)
 
+## Run Locally
+### 1. Install Dependencies
+```sh
+$ yarn install
+```
 
-Now one surprise section added is of discussion Chamber which is connected with Sanity(Headless CMS).
-A text-editor is added with functionalities of bold,italic,etc and image section where a user can just upload an image or can copy any image address from wherever and it will automatically preview image according to the type of input url using regex.
-User can reply the same thing as well at the same time.
+### 2. Create a new firebase project
+Login to your google account and create a new firebase project [here](https://console.firebase.google.com/u/0/)
 
-This website is fullt responsive..
+Create an `.env` file and add the following variables.
 
+```
+// SAMPLE CONFIG .env, you should put the actual config details found on your project settings
 
+VITE_FIREBASE_API_KEY=AIzaKJgkjhSdfSgkjhdkKJdkjowf
+VITE_FIREBASE_AUTH_DOMAIN=yourauthdomin.firebaseapp.com
+VITE_FIREBASE_DB_URL=https://yourdburl.firebaseio.com
+VITE_FIREBASE_PROJECT_ID=yourproject-id
+VITE_FIREBASE_STORAGE_BUCKET=yourstoragebucket.appspot.com
+VITE_FIREBASE_MSG_SENDER_ID=43597918523958
+VITE_FIREBASE_APP_ID=234598789798798fg3-034
 
+``` 
 
-Home Page
+After setting up necessary configuration,
+create a **Database** and choose **Cloud Firestore** and start in test mode
 
-![Screenshot 2023-01-28 at 8 49 15 PM](https://user-images.githubusercontent.com/114575434/215274848-ce9787c7-8bdc-43c5-9f58-f7862b4cecd7.png)
+### 3. Run development server
+```sh 
+$ yarn dev
+```
 
+---
 
-Jobs Page
+## Build the project
+```sh
+$ yarn build
+```
 
-![Screenshot 2023-01-28 at 8 47 22 PM](https://user-images.githubusercontent.com/114575434/215274857-f2aefecd-f349-4c8c-b703-0c4ad410159a.png)
+## How to add products or perform CRUD operations for Admin
+1. Navigate to your site to `/signup`
+2. Create an account for yourself
+3. Go to your firestore collection `users collection` and edit the account you've just created. Change the role from `USER` to `ADMIN`.
+4. Reload or sigin again to see the changes. 
 
+**Firebase Admin to be integrated soon**
 
+## Features
 
-Job Category Filter
+* Admin CRUD operations
+* Firebase authentication
+* Firebase auth provider authentication
+* Account creation and edit
 
-
-![Screenshot 2023-01-28 at 8 47 22 PM](https://user-images.githubusercontent.com/114575434/215274869-908a1630-83c9-44c6-bf37-dfb76262a895.png)
-
-
-
-Discussion Chamber
-
-![Screenshot 2023-01-28 at 8 52 19 PM](https://user-images.githubusercontent.com/114575434/215274887-06fa1c2e-79b1-47f0-b0ee-bdb34d6f1281.png)
-
-
-
-
-
-Tools and Technology Used:-
-
-1.HTML CSS AND JS
-2.React JS
-3.Sanity for Backend.
-4.VS Code
-5.Vercel for deployment.
