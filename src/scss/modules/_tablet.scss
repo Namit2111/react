@@ -1,0 +1,64 @@
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 800px) {
+    body .wrapper .header .header__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .cart-section {
+            margin-top: 20px;
+        }
+    }
+    body .wrapper .nav__list {
+        justify-content: center;
+        li {
+            margin: 10px 15px 10px 0;
+        }
+    }
+    body .conclusion {
+        flex-direction: column;
+        .order {
+            p {
+                margin-top: 0;
+            }
+        }
+    }
+    body .buttons {
+        width: 80%;
+        justify-content: space-around;
+    }
+    body .pizza-cart .pizza-cart__item {
+        flex-direction: column;
+        .pizza-img {
+            width: 60%;
+            img {
+                width: 180px;
+                height: 180px;
+            }
+        }
+        .pizza-prise p {
+            margin: 0;
+        }
+        .pizza-delete {
+            margin-top: 15px;
+            svg {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    body .pizza-cart .pizza-cart__item .pizza-amount {
+        svg {
+            width: 40px;
+            height: 40px;
+        }
+        .amount {
+            margin: 0 20px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    body .wrapper .pizza__item .price-section .btn {
+        padding: 10px 20px;
+    }
+}

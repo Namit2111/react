@@ -1,0 +1,60 @@
+/* Large desktops and laptops */
+$active-color: #fe5f1e;
+$background-color: #ffdf8c;
+
+@media (min-width: 1925px) {
+    html {
+        font-size: 22px;
+    }
+    body .wrapper .nav__sort .nav__menu_active,
+    body .wrapper .nav__sort .nav__menu {
+        top: 75px;
+        width: 180px;
+        left: 60px;
+        height: 18 0px;
+        li {
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 2300px) {
+    html {
+        font-size: 24px;
+    }
+    body .wrapper .header .header__wrapper .cart-section {
+        width: 200px;
+        height: 75px;
+        border-radius: 40px;
+    }
+    body .wrapper .nav__list li a {
+        padding: 20px 35px;
+        border-radius: 35px;
+    }
+    body .wrapper .pizza__item .kind-section {
+        height: 100px;
+        .kind div,
+        .size div {
+            height: 45px;
+        }
+    }
+    body .wrapper .nav__sort .nav__menu_active,
+    body .wrapper .nav__sort .nav__menu {
+        top: 95px;
+        width: 180px;
+        height: 200px;
+        left: 60px;
+        border-radius: 20px;
+        li {
+            text-align: center;
+        }
+    }
+    body .wrapper .pizza__item .price-section .btn {
+        padding: 20px 40px;
+        p {
+            font-size: 1rem;
+        }
+        .amount {
+            padding: 3px 5px;
+        }
+    }
+}

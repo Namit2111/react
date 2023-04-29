@@ -1,0 +1,73 @@
+@import '../variables';
+
+body {
+    .wrapper {
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .header__wrapper {
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 5%;
+                padding: 3% 0;
+                .logo-section {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    &__img {
+                        width: 38px;
+                        height: 38px;
+                        margin-right: 20px;
+                    }
+                    &__text {
+                        b {
+                            color: black;
+                            margin: 0;
+                            font-size: 1.5rem;
+                            font-weight: 800;
+                        }
+                        p {
+                            margin: 0;
+                            color: #7b7b7b;
+                        }
+                    }
+                }
+                .cart-section {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $active-color;
+                    color: white;
+                    height: 50px;
+                    border-radius: 30px;
+                    width: 150px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    &__vl {
+                        height: 25px;
+                        width: 1px;
+                        background-color: #fe8756;
+                        margin: 0 10%;
+                    }
+                    span {
+                        img[alt='cart'] {
+                            width: 18px;
+                            height: 18px;
+                            margin-right: 5px;
+                        }
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .header__vl {
+                width: 98%;
+                height: 1px;
+                background-color: #f7f7f7;
+            }
+        }
+    }
+}
